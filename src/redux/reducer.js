@@ -4,6 +4,7 @@ const defaultState = {
   count: 0,
   changeCount: 0,
   selections: [],
+  disabled: true,
 };
 
 const reducer = (state = defaultState, action) => {
